@@ -1,7 +1,29 @@
-.page-header {
-    font-family: "Helvetica Neue";
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.underline {
-    text-decoration: underline;
+.header {
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+  font-size: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.header-p {
+  font-size: 20px;
+}
+
+.main {
+  color: red;
+  font-family: Avenir;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
+
+.main-underline {
+  text-decoration: underline;
 }
